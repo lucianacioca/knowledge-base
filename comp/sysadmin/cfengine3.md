@@ -9,6 +9,8 @@ _CFEngine is an IT infrastructure automation framework that helps engineers, sys
 
 [Latest Debian Packages](http://cfengine.com/pub/apt/pool/main/c/cfengine-community/)
 
+[CFEngine reference manual](http://cfengine.com/manuals/cf3-reference)
+
 ## cf-sketch ##
 
 [Installing cf-sketch](https://github.com/cfengine/design-center/wiki/Installing-cfsketch)

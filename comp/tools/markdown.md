@@ -9,3 +9,5 @@ _Markdown is a text-to-HTML conversion tool for web writers. Markdown allows you
 
 [GitHub Flavored Markdown](http://github.github.com/github-flavored-markdown/)
 
+[Pandoc User's Guide](http://johnmacfarlane.net/pandoc/README.html)
+
