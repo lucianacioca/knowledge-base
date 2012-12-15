@@ -5,9 +5,12 @@ Here I store all the knowledge I want to keep track of.
 ## Topics ##
 
 Currently it's only about computer stuff. System administration, coding, etc.
-Maybe one day I will talk about other topics (I have designed the URI
-namespace of the repository for allowing that). The content is written in
-French OR in English.
+See comp/ subdirectory.
+
+Maybe one day I will talk about other topics (I have designed the
+namespace of the repository for allowing that).
+
+The content is written in French OR in English.
 
 ## History ##
 
