@@ -4,6 +4,8 @@
 
 [A Byte of Vim](http://www.swaroopch.com/notes/Vim_en-Programmers_Editor/)
 
+[Vim Commands Cheat Sheet](http://bullium.com/support/vim.html)
+
 ## One-liners ##
 
 Jump to next or previous empty line :
@@ -36,4 +38,24 @@ vim -S /tmp/vim_session.vim
 ### Python ###
 
 [Official Vim documentation for Python](http://vimdoc.sourceforge.net/htmldoc/if_pyth.html)
+
+Ultra basic example :
+
+```
+function! Hellovim()
+python <<EOF
+import vim
+vim.command("vnew")
+vim.current.buffer[0] = "Hello Vim !"
+EOF
+endfunction
+
+call Hellovim()
+```
+
+Save the content into a file `example.vim`, then run :
+
+```
+:source example.vim
+```
 
