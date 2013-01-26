@@ -41,3 +41,16 @@ cd cf-sketch
 make install
 ```
 
+## Logging ##
+
+See <http://cfengine.com/manuals/cf3-Reference#Text-logs>.
+
+`cf-serverd` logs incoming requests using **syslog**.
+
+`/var/cfengine/cf3.HOSTNAME.runlog` is the main logfile for looking at CFEngine activity.
+
+`/var/cfengine/cfagent.HOSTNAME.log` could be deleted (obsolete).
+
+`/var/cfengine/promise_summary.log` is useful to check that all promises are kept.
+It could be monitored by a Nagios plugin.
+
