@@ -35,6 +35,14 @@ vim -S /tmp/vim_session.vim
 
 ## Plugin development ##
 
+### Documentation ###
+
+~~~~~
+:help vim-script-intro
+~~~~~
+
+Book : _Hacking Vim_ - Kim Schulz
+
 ### Python ###
 
 [Official Vim documentation for Python](http://vimdoc.sourceforge.net/htmldoc/if_pyth.html)
