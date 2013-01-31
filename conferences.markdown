@@ -1,5 +1,5 @@
 
-# Conferences list #
+# Conferences list (computer science) #
 
 ## Open Source ##
 
