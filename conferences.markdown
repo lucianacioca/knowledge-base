@@ -6,12 +6,15 @@
 - [RMLL](http://rmll.info/) (Francophone countries, July)
 - [FOSDEM](https://fosdem.org/) (Belgium, February)
 - [Solutions Linux](http://www.solutionslinux.fr/) (Paris, May)
+- [Open world forum](http://www.openworldforum.org/) (Paris, October)
 
-## System Administration ##
+## System Administration and devops ##
 
 - [LISA](https://www.usenix.org/conference/lisa12/) (United States, December)
 - [LOAD](http://loadays.org/) (Belgium)
 - [devopsdays](http://devopsdays.org/) (International, Paris event : 2013/04/18)
+- [Velocity](http://velocityconf.com/) (International, London event : 2013/11/13)
+- [FLOSS UK](http://www.flossuk.org/Events/Spring2013) (LISA little sister, UK, March)
 
 ## Computer Security ##
 
