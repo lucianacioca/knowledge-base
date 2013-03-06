@@ -15,6 +15,7 @@
 - [devopsdays](http://devopsdays.org/) (International, Paris event : 2013/04/18)
 - [Velocity](http://velocityconf.com/) (International, London event : 2013/11/13)
 - [FLOSS UK](http://www.flossuk.org/Events/Spring2013) (LISA little sister, UK, March)
+- [CloudConf](http://www.cloudconf.eu/) (June 7, 2013)
 
 ## Computer Security ##
 
