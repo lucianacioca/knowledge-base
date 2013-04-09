@@ -6,7 +6,7 @@
 Packages install :
 
 ~~~~~
-apt-get install bluetooth obexftp
+apt-get install bluetooth
 ~~~~~
 
 Check for bluetooth device :
