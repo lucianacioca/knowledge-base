@@ -35,3 +35,10 @@ Umount NBD device :
 nbd-client -d /dev/nbd0
 ~~~~~
 
+## Optimize VM image size
+
+The `zerofree` utility can be effective to optimize the size of a `sparse` VM
+image. It works by zero-ing unused blocks on a ext2/ext3/ext4 filesystem.
+
+Then, `cp --sparse=always` can be used to replace zeros by holes.
+
