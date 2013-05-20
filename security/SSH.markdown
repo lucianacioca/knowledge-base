@@ -17,16 +17,16 @@ Match Host 192.0.2.1, 192.0.2.2
 	PasswordAuthentication Yes
 ~~~~~
 
-3. If some users need password authentification from everywhere, allow only these users and check password robustness :
+4. If some users need password authentification from everywhere, allow only these users and check password robustness :
 
 ~~~~~
 Match User bob, fred
 	PasswordAuthentication Yes
 ~~~~~
 
-4. Add administrators to the `sudo` group
+5. Add administrators to the `sudo` group
 
-5. Set a very complicated and random root password and store it securely (will not be used)
+6. Set a very complicated and random root password and store it securely (will not be used)
 
-6. If possible, restrict network access to the SSH port
+7. If possible, restrict network access to the SSH port
 
