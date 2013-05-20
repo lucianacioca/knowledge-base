@@ -11,18 +11,18 @@ These rules works for Debian systems with the default SSHD configuration.
 
 3. If necessary to use password authentification from particular places (e.g. admin workstations), allow only these IP addresses/networks :
 
-~~~~~
-PasswordAuthentication No
-Match Host 192.0.2.1, 192.0.2.2
-	PasswordAuthentication Yes
-~~~~~
+ ~~~~~
+ PasswordAuthentication No
+ Match Host 192.0.2.1, 192.0.2.2
+ 	PasswordAuthentication Yes
+ ~~~~~
 
 4. If some users need password authentification from everywhere, allow only these users and check password robustness :
 
-~~~~~
-Match User bob, fred
-	PasswordAuthentication Yes
-~~~~~
+ ~~~~~
+ Match User bob, fred
+ 	PasswordAuthentication Yes
+ ~~~~~
 
 5. Add administrators to the `sudo` group
 
