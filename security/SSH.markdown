@@ -14,14 +14,14 @@ These rules works for Debian systems with the default SSHD configuration.
  ~~~~~
  PasswordAuthentication No
  Match Host 192.0.2.1, 192.0.2.2
- 	PasswordAuthentication Yes
+     PasswordAuthentication Yes
  ~~~~~
 
 4. If some users need password authentification from everywhere, allow only these users and check password robustness :
 
  ~~~~~
  Match User bob, fred
- 	PasswordAuthentication Yes
+     PasswordAuthentication Yes
  ~~~~~
 
 5. Add administrators to the `sudo` group
