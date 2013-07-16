@@ -7,6 +7,7 @@
 - [FOSDEM](https://fosdem.org/) (Belgium, February)
 - [Solutions Linux](http://www.solutionslinux.fr/) (Paris, May)
 - [Open world forum](http://www.openworldforum.org/) (Paris, October)
+- [OSCON](http://www.oscon.com/) (O'Reilly convention, USA, July)
 
 ## System Administration and devops ##
 
