@@ -2,6 +2,12 @@
 
 ## Packaging ##
 
+### Useful tools
+
+~~~~~
+apt-get install devscripts
+~~~~~
+
 ### Example package
 
 Get source :
