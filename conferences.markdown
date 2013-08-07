@@ -8,6 +8,7 @@
 - [Solutions Linux](http://www.solutionslinux.fr/) (Paris, May)
 - [Open world forum](http://www.openworldforum.org/) (Paris, October)
 - [OSCON](http://www.oscon.com/) (O'Reilly convention, USA, July)
+- [LinuxCon Europe](http://events.linuxfoundation.org/events/linuxcon-europe) (Europe, October)
 
 ## System Administration and devops ##
 
