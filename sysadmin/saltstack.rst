@@ -5,13 +5,8 @@ SaltStack
 Useful URL
 ----------
 
-================ ==============================================================
-Link             Description
-================ ==============================================================
-Walkthrough_     Salt Stack Walkthrough
-================ ==============================================================
-
-.. _Walkthrough: http://docs.saltstack.com/topics/tutorials/walkthrough.html
+- `Salt Stack Walkthrough <http://docs.saltstack.com/topics/tutorials/walkthrough.html>`_
+- `Pillar Walkthrough <http://docs.saltstack.com/topics/tutorials/pillar.html>`_
 
 Useful Salt functions
 ---------------------
