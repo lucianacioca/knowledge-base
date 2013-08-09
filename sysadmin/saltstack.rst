@@ -21,6 +21,7 @@ Function             Description
 ==================== ==========================================================
 cmd.run              Execute command
 network.interfaces   Dump network configuration
+pillar.items         List pillars on minion
 service.get_all      List all system services
 state.highstate      Run all states
 sys.doc              Show all available functions
