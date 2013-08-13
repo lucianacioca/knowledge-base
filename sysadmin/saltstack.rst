@@ -10,7 +10,9 @@ Useful URL
 - `States tutorial, part 1 <http://docs.saltstack.com/topics/tutorials/states_pt1.html>`_
 - `How Do I Use Salt States ? <http://docs.saltstack.com/topics/tutorials/starting_states.html>`_
 - `Jinja2 documentation <http://jinja.pocoo.org/docs/>`_
-- `[T] States tutorial, part 2 <http://docs.saltstack.com/topics/tutorials/states_pt2.html>`_
+- `States tutorial, part 2 <http://docs.saltstack.com/topics/tutorials/states_pt2.html>`_
+- `[T] States tutorial, part 3 <http://docs.saltstack.com/topics/tutorials/states_pt3.html>`_
+- `[T] States tutorial, part 4 <http://docs.saltstack.com/topics/tutorials/states_pt4.html>`_
 - `[T] State Enforcement <http://docs.saltstack.com/ref/states/index.html>`_
 
 Useful Salt functions
