@@ -1,6 +1,10 @@
 
 # Performances #
 
+## URL ##
+
+- http://dtrace.org/blogs/brendan/2012/03/07/the-use-method-linux-performance-checklist/
+
 ## Disk performance ##
 
 Some average numbers :
