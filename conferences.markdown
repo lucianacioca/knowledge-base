@@ -19,6 +19,7 @@
 - [FLOSS UK](http://www.flossuk.org/Events/Spring2013) (LISA little sister, UK, March)
 - [CloudConf](http://www.cloudconf.eu/) (June 7, 2013)
 - [Cloud Computing World Expo](http://www.cloudcomputing-world.com/) (2013/04/10)
+- [Config Management Camp](http://cfgmgmtcamp.eu)
 
 ## Computer Security ##
 
