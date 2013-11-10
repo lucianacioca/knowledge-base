@@ -1,0 +1,76 @@
+
+Thinkpad T430
+=============
+
+This page describes the steps to set up my personal T430 laptop.
+I publish this as a reminder for myself, and in case someone finds useful informations.
+
+Hardware configuration
+----------------------
+
+- CPU: Intel(R) Core(TM) i7-3520M CPU @ 2.90GHz
+- Memory: 16 GB
+- Disk /dev/sda: 128.0 GB (SSD LITEONIT LCT-128)
+- Disk /dev/sdb: 500.1 GB (HITACHI HTS72755)
+- VGA controller: Intel Corporation 3rd Gen Core processor Graphics Controller
+- Ethernet controller: Intel Corporation 82579LM Gigabit Network Connection
+- Wi-Fi controller : Intel(R) Centrino(R) Ultimate-N 6300 AGN
+- Audio device: Intel Corporation 7 Series/C210 Series Chipset Family High Definition Audio Controller (rev 04)
+
+Overview
+--------
+
+At boot up, Enter key gives access to the Startup Interrupt Menu :
+
+- F1 : BIOS
+- F10 : Lenovo diagnostic (memory, storage)
+- F11 : Recover system
+- F12 : Choose temporary boot device
+
+BIOS Configuration
+------------------
+
+My version of Thinkpad Setup is currently 2.0.9.
+
+In *Config* section : ::
+
+    Network > Wake on Lan             > Disabled   (no use)
+              UEFI IPv4 Network Stack > Disabled   (no use)
+              UEFI IPv6 Network Stack > Disabled   (no use)
+
+    Power > Power On with AC Attach > Enabled      (just for fun)
+
+    Beep and Alarm > Password Beep > Disabled      (don't want a beep at each startup)
+
+    Intel AMT > Intel AMT Control > Disabled       (don't need vPro fonctionnalites)
+
+In *Security* : ::
+
+    Password > Hardware Password Manager > Disabled
+
+             > Power-On Password > Enabled
+
+             > Supervisor Password > Enabled
+
+             > Lock UEFI BIOS Settings > Enabled
+
+             > Password At > Unattended boot > Enabled
+
+                           > At restart > Enabled
+
+    Virtualization > Intel (R) Virtualization technology > Enabled
+
+                   > Intel (R) VT-d feature > Enabled
+
+    Secure boot > Disabled   (needed for Debian install)
+
+In *Startup* section : ::
+
+    Boot > Debian   (available after installation)
+
+Some links :
+
+- Intel vPro : http://en.wikipedia.org/wiki/Intel_vPro
+- Intel Active Management Technology : http://en.wikipedia.org/wiki/Intel_Active_Management_Technology
+- Trusted Execution Technology : http://en.wikipedia.org/wiki/Trusted_Execution_Technology
+
