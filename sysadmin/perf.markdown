@@ -17,6 +17,16 @@ Average IOPS for a 10K RPM drive : 133
 
 Sources : <http://blog.scoutapp.com/articles/2011/02/10/understanding-disk-i-o-when-should-you-be-worried>
 
+### Benchmark with bonnie++ ###
+
+~~~~~
+# Perform benchmark as user nobody (-u) into directory /tmp (-d), using a 16G
+# file (-s), without write buffering (-b). Skip per-char IO tests (-f). Save
+# results in file bonnie.timestamp.
+
+bonnie++ -u nobody -d /tmp -s 16G -b -f >bonnie.$(date +%s)
+~~~~~
+
 ### Ressources ###
 
 - [Calculate IOPS in a storage array](http://www.techrepublic.com/blog/datacenter/calculate-iops-in-a-storage-array/2182)
@@ -43,6 +53,7 @@ Sources : <http://blog.scoutapp.com/articles/2011/02/10/understanding-disk-i-o-w
 - iotop
 - iostat
 - lsof
+- bonnie++
 
 ### Network ###
 
