@@ -26,7 +26,12 @@ How-to :
 
 - Copy partition table : ::
 
+    # If MSDOS partition table
     sfdisk -d /dev/sdb | sfdisk --force /dev/sda
+
+    # If GPT partition table
+    # Debian: needs package gdisk
+    sgdisk -R=/dev/sda /dev/sdb
 
 - Add missing device for each partition : ::
 
