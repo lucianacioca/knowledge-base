@@ -20,11 +20,14 @@ Sources : <http://blog.scoutapp.com/articles/2011/02/10/understanding-disk-i-o-w
 ### Benchmark with bonnie++ ###
 
 ~~~~~
-# Perform benchmark as user nobody (-u) into directory /tmp (-d), using a 16G
-# file (-s), without write buffering (-b). Skip per-char IO tests (-f). Save
-# results in file bonnie.timestamp.
+# Perform benchmark as user nobody (-u) into directory /tmp (-d), using a file
+# twice as big as the total RAM (-s), without write buffering (-b).
+# Skip per-char IO tests (-f).
+# Save results in file bonnie.timestamp.
 
-bonnie++ -u nobody -d /tmp -s 16G -b -f >bonnie.$(date +%s)
+bonnie++ -u nobody -d /tmp \
+    -s $(perl -ne '/^MemTotal:\s+(\d+)/ && print int($1/512+1)' /proc/meminfo) \
+    -b -f >bonnie.$(date +%s)
 ~~~~~
 
 ### Ressources ###
