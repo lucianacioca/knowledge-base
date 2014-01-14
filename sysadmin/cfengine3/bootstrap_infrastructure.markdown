@@ -29,8 +29,8 @@ git commit -m "Remove unused files"
 
 Edit `def.cf` and set the following variables :
 
-- domain
-- acl
+- `domain`
+- `acl` (do not forget 127.0.0.1 !)
 
 Edit `update.cf` and set `leaf_name => { ".*" };` for `body file_select u_input_files`.
 
