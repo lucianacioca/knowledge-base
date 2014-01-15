@@ -30,6 +30,29 @@ Restore session : ::
 
     vim -S /tmp/vim_session.vim
 
+Plugins usage
+=============
+
+pydoc
+-----
+https://github.com/fs111/pydoc.vim/blob/master/ftplugin/python_pydoc.vim
+
+View the documentation of the ``os.path`` module : ::
+
+    :Pydoc os.path
+
+Search the documentation for the word ``import`` : ::
+
+    :PydocSearch import
+
+View the documentation for the word under the cursor : ::
+
+    <Leader>pw
+
+View the documentation for the WORD under the cursor : ::
+
+    <Leader>pW
+
 Plugin development
 ==================
 
