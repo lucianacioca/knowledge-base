@@ -14,6 +14,7 @@ Useful URL
 - `[T] States tutorial, part 3 <http://docs.saltstack.com/topics/tutorials/states_pt3.html>`_
 - `[T] States tutorial, part 4 <http://docs.saltstack.com/topics/tutorials/states_pt4.html>`_
 - `[T] State Enforcement <http://docs.saltstack.com/ref/states/index.html>`_
+- `Salting your Django Stack <http://blog.gibbon.co/posts/2013-06-12-salting-your-django-stack.html>`_
 
 Useful Salt functions
 ---------------------

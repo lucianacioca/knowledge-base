@@ -4,6 +4,7 @@ Color picker
 
 - https://kuler.adobe.com/create/color-wheel/
 - http://colorschemedesigner.com/
+- http://www.colorzilla.com/gradient-editor/
 
 Typography
 ==========
