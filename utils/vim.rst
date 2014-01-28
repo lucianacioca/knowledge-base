@@ -30,8 +30,36 @@ Restore session : ::
 
     vim -S /tmp/vim_session.vim
 
-Plugins usage
-=============
+Plugins
+=======
+
+Useful plugins :
+
+- `File explorer <https://github.com/scrooloose/nerdtree>`_
+- `Git integration <https://github.com/tpope/vim-fugitive.git>`_
+- `Pandoc syntax <https://github.com/vim-pandoc/vim-pandoc.git>`_
+- `Align data <https://github.com/vim-scripts/Align>`_
+- `XML completion <https://github.com/othree/xml.vim.git>`_
+- `Manage complex undo <https://github.com/mbbill/undotree.git>`_
+- `Python doc <https://github.com/fs111/pydoc.vim.git>`_
+- `Run syntax checks <https://github.com/klen/python-mode>`_
+- `Vim config for git <https://github.com/tpope/vim-git.git>`_
+- `ack-grep integration <https://github.com/mileszs/ack.vim>`_
+- `Tab for completion <https://github.com/ervandew/supertab>`_
+- `Comment easily <https://github.com/scrooloose/nerdcommenter.git>`_
+
+Probably useful but not personally tested :
+
+- `CTRLP - Fuzzy file, buffer, mru, tag, etc finder <https://github.com/kien/ctrlp.vim>`_
+- `YouCompleteMe - A code-completion engine for Vim <https://github.com/Valloric/YouCompleteMe>`_
+- `Gundo - Graph your Vim undo tree in style <https://github.com/sjl/gundo.vim>`_
+- `Syntastic - Syntax checking hacks for vim <https://github.com/scrooloose/syntastic>`_
+- `Python-mode - Vim python-mode. PyLint, Rope, Pydoc, breakpoints from box <https://github.com/klen/python-mode>`_
+
+Useful links for development :
+
+- `Turning Vim into a modern Python IDE <http://sontek.net/blog/detail/turning-vim-into-a-modern-python-ide>`_
+- `My Development Environment For Python <http://www.jeffknupp.com/blog/2013/12/04/my-development-environment-for-python/>`_
 
 pydoc
 -----
