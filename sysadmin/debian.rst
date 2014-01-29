@@ -38,10 +38,12 @@ WNPP_            Debian Packages that Need Lovin'
 intro-maint_     Introduction for maintainers on mentors.debian.net
 packaging-tuto_  Debian packaging tutorial
 maint-guide_     Debian New Maintainers' Guide
-- tools_         - 1.2. Programs needed for development
-- help_          - 1.4. Where to ask for help
+tools_           1.2. Programs needed for development
+help_            1.4. Where to ask for help
 devel-reference_ Debian Developer's Reference
 policy_          Debian Policy Manual
+debian_ml_       Full list of Debian mailing lists
+debian_ment_faq_ Debian Mentors FAQ
 ================ ==============================================================
 
 .. _WNPP: http://wnpp.debian.net/
@@ -52,6 +54,25 @@ policy_          Debian Policy Manual
 .. _help: http://www.debian.org/doc/manuals/maint-guide/start.en.html#helpme
 .. _devel-reference: http://www.debian.org/doc/manuals/developers-reference/index.html
 .. _policy: http://www.debian.org/doc/debian-policy/
+.. _debian_ml: http://www.debian.org/MailingLists/subscribe
+.. _debian_ment_faq: https://wiki.debian.org/DebianMentorsFaq
+
+Useful mailing lists (personal interest)
+----------------------------------------
+
+- debian-mentors
+- debian-announce
+- debian-enterprise
+- debian-devel-announce
+- debian-news
+- debian-devel
+- debian-project
+- debian-releases
+- debian-qa
+- debian-security
+- debian-security-announce
+- debian-stable-announce
+- debian-cloud
 
 How-to build an existing package
 --------------------------------
