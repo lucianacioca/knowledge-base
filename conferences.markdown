@@ -30,6 +30,9 @@
 - [Djangocong](http://rencontres.django-fr.org/) (France)
 - [PyconFR](http://www.pycon.fr/) (Python programming, Paris, September)
 - [Devoxx](http://www.devoxx.com/) (Java programming, Europe)
+- [Djangocon Europe 2014](http://2014.djangocon.eu/) (This year in France)
+- [Europython 2014](https://ep2014.europython.eu/) (Germany)
+
 
 ## Web ##
 
