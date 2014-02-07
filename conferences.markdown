@@ -1,4 +1,3 @@
-
 # Conferences list (computer science) #
 
 ## Open Source ##
@@ -30,6 +29,9 @@
 - [Djangocong](http://rencontres.django-fr.org/) (France)
 - [PyconFR](http://www.pycon.fr/) (Python programming, Paris, September)
 - [Devoxx](http://www.devoxx.com/) (Java programming, Europe)
+- [RuLu](http://rulu.eu) (Ruby programming - Lyon, France - June)
+- [La Conf](http://la-conf.org) (Ruby/Javascript/web - Paris, France - May)
+- [Scottish Ruby Conf](scottishrubyconference.com) (Ruby programming - Scotland - September
 
 ## Web ##
 
