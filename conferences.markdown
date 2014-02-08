@@ -1,4 +1,3 @@
-
 # Conferences list (computer science) #
 
 ## Open Source ##
@@ -32,7 +31,9 @@
 - [Devoxx](http://www.devoxx.com/) (Java programming, Europe)
 - [Djangocon Europe 2014](http://2014.djangocon.eu/) (This year in France)
 - [Europython 2014](https://ep2014.europython.eu/) (Germany)
-
+- [RuLu](http://rulu.eu) (Ruby programming - Lyon, France - June)
+- [La Conf](http://la-conf.org) (Ruby/Javascript/web - Paris, France - May)
+- [Scottish Ruby Conf](scottishrubyconference.com) (Ruby programming - Scotland - September)
 
 ## Web ##
 
