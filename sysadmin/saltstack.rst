@@ -15,6 +15,7 @@ Useful URL
 - `[T] States tutorial, part 4 <http://docs.saltstack.com/topics/tutorials/states_pt4.html>`_
 - `[T] State Enforcement <http://docs.saltstack.com/ref/states/index.html>`_
 - `Salting your Django Stack <http://blog.gibbon.co/posts/2013-06-12-salting-your-django-stack.html>`_
+- `Getting redundancy and scalability with multiple master servers <http://bencane.com/2014/02/04/saltstack-getting-redundancy-and-scalability-with-multiple-master-servers/#share>`_
 
 Useful Salt functions
 ---------------------
