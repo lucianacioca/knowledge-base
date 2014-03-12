@@ -14,9 +14,9 @@ Useful modules :
 Building Python from scratch
 ============================
 
-Install required header files for the modules you need : ::
+Install important header files : ::
 
-    apt-get install libbz2-dev
+    apt-get install libbz2-dev zlib1g-dev libssl-dev libreadline-dev libsqlite3-dev
 
 Download sources : ::
 
@@ -30,8 +30,12 @@ Uncompress, build, install : ::
     make
     make install
 
-Create virtualenv which will use this new Python interpreter : ::
+Create virtualenv using this new Python interpreter : ::
 
     mkvirtualenv -p /opt/Python-2.7.6/bin/python my_venv
     source ~/.virtualenvs/my_venv/bin/activate
+
+Install useful utils : ::
+
+    pip install ipython
 
