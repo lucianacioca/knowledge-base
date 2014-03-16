@@ -19,3 +19,11 @@ Track remote branch origin/master for local branch master : ::
 
     git branch --set-upstream master origin/master
 
+Create and checkout a local branch : ::
+
+    git checkout -b local-branch
+
+Push local branch to remote ``origin`` : ::
+
+    git push --set-upstream origin local-branch
+
