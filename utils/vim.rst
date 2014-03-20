@@ -30,6 +30,10 @@ Restore session : ::
 
     vim -S /tmp/vim_session.vim
 
+Convert Textile links into RST links : ::
+
+    s/\v\[(.*)\]\((.*)\)/`\1 <\2>`_/
+
 Plugins
 =======
 
