@@ -3,23 +3,67 @@
 Quality assurance
 =================
 
-This is a list of items to check on a Debian server.
+All servers MUST have
+---------------------
 
-=================            ====================================
-Check point                  Desired state
-=================            ====================================
-NTP                          Synced on debian.pool.ntp.org + Nagios check
-Backup                       Daily incremental backup (system + data)
-Monitoring                   Nagios system check
-SSH Security                 User login only by key
-Updates notification         Nagios check
-Root access                  Only via sudo or without-password (for backups)
-Root password                Disabled, or very complex
-Admin mail                   Admin receive root@ e-mails via local MTA
-Kernel                       Minimal kernel is built without module support
-Firewall                     IPtables enabled with secure rules set
-Storage                      RAID monitored by Nagios
-Metrics                      Munin enabled and available
-Documentation                Written and available
-=================            ====================================
+- **NTP** server synchronized on pool.ntp.org
+- **Backup** of sensitive data with incremental archives
+- **Metrics** of all system components
+- **Firewall** enabled with restrictive ruleset
+- **Root password** disabled or very complex
+- **Packages repository** correctly configured, with security updates
+- **Root e-mail alias** directed to a human sysadmin mailbox
+- **SSH access** secured (see section below)
+- **Monitoring** of all services and subsystems, including :
+    - Security updates
+    - Storage and RAID status
+
+All servers SHOULD have
+-----------------------
+
+- **Configuration management** allowing to reinstall the server from scratch
+- **Documentation** of system operations
+
+Prefered tools on Debian
+------------------------
+
+========================   ===================================
+
+========================   ===================================
+NTP                        OpenNTPD
+Backup                     tobackup
+Metrics                    Munin
+Firewall                   Iptables/Netfilter
+Monitoring                 Nagios
+Configuration management   SaltStack
+Documentation              Sphinx
+========================   ===================================
+
+SSH Security
+------------
+
+These rules work for Debian systems with default SSHD configuration.
+
+1. Restrict root login (``PermitRootLogin No``), or allow only public key (``PermitRootLogin without-password``)
+
+2. Restrict password authentification (``PasswordAuthentication no``)
+
+3. If necessary to use password authentication from particular places (e.g. admin workstations), allow only these IP addresses/networks : ::
+
+    PasswordAuthentication No
+    Match Address 192.0.2.1, 192.0.2.2, 192.0.1.0/24
+        PasswordAuthentication yes
+
+4. If some users need password authentication from everywhere, allow only these users and check their passwords robustness : ::
+
+    Match User bob, fred
+        PasswordAuthentication yes
+
+5. Restrict SSH access to the group ``sshusers`` : ::
+
+    AllowGroups sshusers
+
+8. Install sudo, and add authorized users to the sudo group
+
+7. If possible, restrict network access to the SSH port or use a non-standard port number
 
