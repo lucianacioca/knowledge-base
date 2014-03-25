@@ -27,3 +27,27 @@ Push local branch to remote ``origin`` : ::
 
     git push --set-upstream origin local-branch
 
+Convert SVN repository to GIT
+=============================
+
+Install ``svn-all-fast-export``.
+
+Create an ``identity`` file containing mapping between SVN and GIT accounts.
+Example : ::
+
+    john = John Doe <john@example.com>
+
+Create a rule file describing how SVN data should be organized in the GIT
+repository : ::
+
+    create repository repo.git
+    end repository
+    match /trunk/
+      repository repo.git
+      branch master
+    end match
+
+Execute ``svn-all-fast-export`` : ::
+
+    svn-all-fast-export --rules RULEFILE --identity-map IDENTITYFILE /path/to/svnrepo
+
