@@ -39,13 +39,49 @@ Execute state :
 
     salt host1 state.sls utils.vim
 
-How-to deploy a development environment
----------------------------------------
+Development environment on Debian 7.0
+-------------------------------------
 
-Requisite : Debian 7.0
+Clone GIT repository : ::
 
-Clone GIT repository :
+    cd ~/git/
+    git clone git://github.com/saltstack/salt.git
+    cd salt
 
-	cd ~/git/
-	git clone git://github.com/saltstack/salt.git
+Install M2Crypto and Python header files : ::
+
+    apt-get install python-m2crypto python-dev
+
+Create and enable dedicated virtualenv : ::
+
+    mkvirtualenv --system-site-packages salt
+    workon salt
+
+Install requirements : ::
+
+    pip install pyzmq PyYAML pycrypto msgpack-python jinja2 psutil
+
+Install test suite requirements : ::
+
+    pip install -r dev_requirements_python27.txt
+
+Using development environment
+-----------------------------
+
+Fetch latest changes from upstream develop : ::
+
+    git pull upstream develop
+
+Launch test suite : ::
+
+    ulimit -n 3072
+    ./setup.py test
+
+Launch test suite for PostgreSQL : ::
+
+./tests/runtests.py -n unit.modules.postgres_test -vv
+
+Launch full test suite : ::
+
+./tests/runtests.py --unit-tests
 
