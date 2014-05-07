@@ -8,6 +8,7 @@ All servers MUST have
 
 - **NTP** server synchronized on pool.ntp.org
 - **Backup** of sensitive data with incremental archives
+- **Dump** of each databases, each day
 - **Metrics** of all system components
 - **Firewall** enabled with restrictive ruleset
 - **Root password** disabled or very complex
