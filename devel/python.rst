@@ -37,5 +37,6 @@ Create virtualenv using this new Python interpreter : ::
 
 Install useful utils : ::
 
-    pip install ipython
+    # If necessary, add --proxy=192.0.2.1:3128
+    pip install readline ipython
 
