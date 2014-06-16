@@ -15,6 +15,8 @@ Icons
 =====
 
 - http://glyphicons.com/
+- http://iconmonstr.com/
+- http://www.famfamfam.com/
 
 Photos
 ======
