@@ -27,6 +27,10 @@ Push local branch to remote ``origin`` : ::
 
     git push --set-upstream origin local-branch
 
+Cancel last commit : ::
+
+    git reset --soft HEAD^
+
 Convert SVN repository to GIT
 =============================
 

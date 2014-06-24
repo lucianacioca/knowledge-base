@@ -1,6 +1,10 @@
 Debian packaging
 ================
 
+Web ressources
+--------------
+- `Dépôts APT locaux en entreprise <http://vincent.bernat.im/fr/blog/2014-depots-apt-locaux.html>`_
+
 Useful packages
 ---------------
 
