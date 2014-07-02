@@ -15,11 +15,7 @@ Naming
 Edit ``/etc/hosts`` as this : ::
 
     127.0.0.1 localhost
-    192.0.2.1 host1.example.com host1
-
-Add name in DNS zone if necessary.
-
-Set reverse DNS.
+    127.0.1.1 host1.example.com host1
 
 Networking
 ----------
@@ -65,17 +61,14 @@ And execute : ::
 
     apt-get install bridge-utils
 
-IPv6
-^^^^
-
-If IPv6 is not needed, remove corresponding configuration.
-
 Security
 --------
 
-If using servers provided by OVH_, move OVH keys from ``/root/.ssh/authorized_keys2`` to ``/root/.ssh/authorized_keys``, and comment them.
+If using servers provided by OVH_, move keys from
+``/root/.ssh/authorized_keys2`` to ``/root/.ssh/authorized_keys``, and comment
+OVH keys.
 
-If not already done, set a strong password for the root account.
+If not already done, set a strong or disabled password for the root account.
 
 .. _OVH: http://www.ovh.com
 
@@ -84,36 +77,30 @@ Packages update
 
 Check sources.list, then execute : ::
 
-	apt-get update
-	apt-get upgrade
+    apt-get update
+    apt-get upgrade
 
 Kernel
 ------
 
-If using servers provided by OVH_, install a Debian default kernel and disable OVH kernel : ::
+If the server runs an OVH kernel, install a Debian default kernel and disable OVH kernel : ::
 
-	apt-get install linux-image-amd64
-	mv /etc/grub.d/06_OVHkernel /etc/grub.d/99_OVHkernel
-	update-grub
+    apt-get install linux-image-amd64
+    mv /etc/grub.d/06_OVHkernel /etc/grub.d/99_OVHkernel
+    update-grub
 
 If LXC will be used, enable cgroup filesystem : ::
 
     echo "cgroup  /sys/fs/cgroup  cgroup  defaults  0   0" >>/etc/fstab
     mount /sys/fs/cgroup
 
-LVM
----
-
-Remove ``/home`` from ``/etc/fstab``, then execute : ::
-
-	umount /home
-	pvcreate /dev/md2   # Example device !
-	vgcreate vg1 /dev/md2
-
 Reboot
 ------
 
 Finally, perform a final reboot.
 
-.. _OVH:http://www.ovh.com/
+Before going to production, check my `QA page`_.
+
+.. _QA page: https://github.com/tmartinfr/knowledge-base/blob/master/sysadmin/qa.rst
+.. _OVH: http://www.ovh.com/
 
