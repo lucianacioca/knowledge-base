@@ -27,7 +27,7 @@ Sources : <http://blog.scoutapp.com/articles/2011/02/10/understanding-disk-i-o-w
 
 bonnie++ -u nobody -d /tmp \
     -s $(perl -ne '/^MemTotal:\s+(\d+)/ && print int($1/512+1)' /proc/meminfo) \
-    -b -f >bonnie.$(date +%s)
+    -b -f >/root/bonnie.$(date +%s)
 ~~~~~
 
 ### Ressources ###
