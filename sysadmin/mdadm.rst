@@ -1,6 +1,10 @@
 mdadm
 =====
 
+Ressources
+----------
+`RAID Recovery Howto <https://raid.wiki.kernel.org/index.php/RAID_Recovery>`_
+
 Query
 -----
 
@@ -53,4 +57,13 @@ Create array
 Create RAID1 array ``/dev/md6`` with devices ``/dev/sda7`` and ``/dev/sdb7`` : ::
 
     mdadm --create /dev/md6 --level=1 --raid-devices=2 /dev/sda7 /dev/sdb7
+
+Ask for a check of all arrays
+-----------------------------
+
+Execute : ::
+
+    /usr/share/mdadm/checkarray -a
+
+Then check the progress in ``/etc/mdstat``.
 
