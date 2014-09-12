@@ -23,3 +23,7 @@ Install i386 dependencies : ::
     apt-get -f install
     apt-get install libpulse0:i386
 
+As of Skype 4.3, Pulse Audio server is needed : ::
+
+    apt-get install pulseaudio
+
