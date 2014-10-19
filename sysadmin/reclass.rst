@@ -21,3 +21,15 @@ Build package : ::
 
     debuild -uc -us
 
+Troubleshooting
+---------------
+
+If the following error appears when executing the ``reclass`` binary : ::
+
+    Traceback (most recent call last):
+      File "/usr/bin/reclass", line 5, in <module>
+        from pkg_resources import load_entry_point
+    ImportError: No module named pkg_resources
+
+then install the ``python-pkg-resources`` package (on Debian).
+
