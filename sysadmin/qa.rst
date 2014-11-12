@@ -31,7 +31,7 @@ Prefered tools on Debian
 ========================   ===================================
 
 ========================   ===================================
-NTP                        OpenNTPD
+NTP                        NTPD
 Backup                     tobackup
 Metrics                    Munin
 Firewall                   Iptables/Netfilter
