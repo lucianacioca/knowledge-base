@@ -5,6 +5,15 @@ Thinkpad T430
 This page describes the steps to set up my personal T430 laptop.
 I publish this as a reminder for myself, and in case someone finds useful informations.
 
+Working components
+==================
+- Bluetooth
+- Wi-Fi (firmware ``iwlwifi-6000-4`` from non-free package firmware-iwlwifi)
+- SC-card reader
+- Ethernet
+- Sound
+- External screen using display port and DVI adapter
+
 Hardware configuration
 ----------------------
 
