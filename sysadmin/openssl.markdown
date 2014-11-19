@@ -20,3 +20,9 @@ X509 certificate :
 openssl x509 -req -days 365 -in example.csr -signkey example.key -out example.crt
 ~~~~~
 
+## Removing passphrase on RSA key ##
+
+~~~~~
+openssl rsa -in my.key.with_passphrase -out my.key
+~~~~~
+
