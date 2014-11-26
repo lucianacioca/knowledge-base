@@ -35,6 +35,7 @@ At boot up, Enter key gives access to the Startup Interrupt Menu :
 - F10 : Lenovo diagnostic (memory, storage)
 - F11 : Recover system
 - F12 : Choose temporary boot device
+- CTRL+P : Intel Management Engine (MBEX)
 
 BIOS Configuration
 ------------------
