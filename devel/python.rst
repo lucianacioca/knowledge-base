@@ -20,20 +20,20 @@ Install important header files : ::
 
 Download sources : ::
 
-    wget http://python.org/ftp/python/2.7.6/Python-2.7.6.tgz
+    wget https://www.python.org/ftp/python/2.7.9/Python-2.7.9.tar.xz
 
 Uncompress, build, install : ::
 
-    tar xf Python-2.7.6.tgz
-    cd Python-2.7.6
-    ./configure --prefix=/opt/Python-2.7.6
+    tar xf Python-2.7.9.tar.xz
+    cd Python-2.7.9
+    ./configure --prefix=/opt/Python-2.7.9
     make
     make install
 
 Create virtualenv using this new Python interpreter : ::
 
-    mkvirtualenv -p /opt/Python-2.7.6/bin/python my_venv
-    source ~/.virtualenvs/my_venv/bin/activate
+    mkvirtualenv -p /opt/Python-2.7.9/bin/python my_venv
+    workon my_venv
 
 Install useful utils : ::
 
