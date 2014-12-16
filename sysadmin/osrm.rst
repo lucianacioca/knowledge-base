@@ -72,7 +72,17 @@ Create a ``server.ini`` file : ::
     fileIndex=./france-latest.osrm.fileIndex
     namesData=./france-latest.osrm.names
 
-Finally, execute this binary to launch the service : ::
+Finally, execute this binary and test the service : ::
 
     ./osrm-routed
+
+Deployment (quick way)
+^^^^^^^^^^^^^^^^^^^^^^
+
+- Move the ``build`` directory into ``/usr/local``.
+- Move the ``server.ini`` file into ``/etc/osrm/``.
+- Specify absolute path in ``server.ini``.
+- Launch OSRM with : ::
+
+    /usr/local/osrm/osrm-routed -c /etc/osrm/server.ini
 
