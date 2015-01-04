@@ -40,3 +40,8 @@ Install useful utils : ::
     # If necessary, add --proxy=192.0.2.1:3128
     pip install readline ipython
 
+Best practices
+==============
+- Follow PEP8 guidelines
+- Follow PEP 257 guidelines (Docstring Conventions)
+
