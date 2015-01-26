@@ -32,8 +32,8 @@ Uncompress, build, install : ::
 
 Create virtualenv using this new Python interpreter : ::
 
-    mkvirtualenv -p /opt/Python-2.7.9/bin/python my_venv
-    workon my_venv
+    mkvirtualenv -p /opt/Python-2.7.9/bin/python python-2.7.9
+    workon python-2.7.9
 
 Install useful utils : ::
 
