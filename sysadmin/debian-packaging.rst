@@ -30,6 +30,8 @@ Command          Description
 ================ ==============================================================
 dpkg-source      Packs and unpacks Debian source archives
 dh_make          Prepare Debian packaging for an original source archive
+debuild          Build a (binary) Debian package
+dch              Edit debian/changelog file
 ================ ==============================================================
 
 Useful URL
@@ -48,6 +50,7 @@ devel-reference_ Debian Developer's Reference
 policy_          Debian Policy Manual
 debian_ml_       Full list of Debian mailing lists
 debian_ment_faq_ Debian Mentors FAQ
+deb_control_     Control files and their fields
 ================ ==============================================================
 
 .. _WNPP: http://wnpp.debian.net/
@@ -60,6 +63,7 @@ debian_ment_faq_ Debian Mentors FAQ
 .. _policy: http://www.debian.org/doc/debian-policy/
 .. _debian_ml: http://www.debian.org/MailingLists/subscribe
 .. _debian_ment_faq: https://wiki.debian.org/DebianMentorsFaq
+.. _deb_control: https://www.debian.org/doc/debian-policy/ch-controlfields
 
 Useful mailing lists (personal interest)
 ----------------------------------------
