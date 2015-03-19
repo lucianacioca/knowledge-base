@@ -85,3 +85,16 @@ Launch full test suite : ::
 
 ./tests/runtests.py --unit-tests
 
+Using Debconf state
+-------------------
+
+Example : ::
+
+    sysstat-debconf:
+        debconf.set:
+            - name: sysstat
+            - data:
+                'sysstat/enable': {'type': 'boolean', 'value': 'true'}
+            - require:
+                - pkg: debconf-utils
+
