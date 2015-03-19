@@ -34,6 +34,10 @@ Convert Textile links into RST links : ::
 
     s/\v\[(.*)\]\((.*)\)/`\1 <\2>`_/
 
+Edit field value enclosed by double quotes : ::
+
+    ci"
+
 Plugins
 =======
 
