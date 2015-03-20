@@ -1,0 +1,8 @@
+
+wget
+====
+
+Recursive download : ::
+
+    wget --user bob --password='foo' -r http://example.com/path/
+
