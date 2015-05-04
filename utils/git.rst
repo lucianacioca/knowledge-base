@@ -31,6 +31,14 @@ Cancel last commit : ::
 
     git reset --soft HEAD^
 
+Delete remote branch : ::
+
+    git push origin :remote_branch
+
+Delete stale remote-tracking branches : ::
+
+    git remote prune origin
+
 Convert SVN repository to GIT
 =============================
 
