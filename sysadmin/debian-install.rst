@@ -147,7 +147,10 @@ Reboot
 
 Finally, perform a final reboot.
 
-Before going to production, check my `QA page`_.
+QA
+--
+
+Before going to production, check the `QA page`_.
 
 .. _QA page: https://github.com/tmartinfr/knowledge-base/blob/master/sysadmin/qa.rst
 .. _OVH: http://www.ovh.com/
