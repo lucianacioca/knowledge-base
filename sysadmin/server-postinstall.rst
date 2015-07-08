@@ -18,7 +18,7 @@ All servers MUST have
 - **Root password** disabled or very complex
 - **Packages repository** correctly configured, with security updates
 - **Root e-mail alias** directed to a human sysadmin mailbox
-- **SSH access** secured (see section below)
+- **SSH access** secured (see below)
 - **Monitoring** of all services and subsystems, including :
     - Security updates
     - Storage and RAID status
@@ -34,7 +34,7 @@ Prefered tools on Debian
 ------------------------
 
 ========================   ===================================
-
+Task                       Software
 ========================   ===================================
 NTP                        NTPD
 Backup                     tobackup
