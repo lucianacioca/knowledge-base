@@ -5,7 +5,7 @@
 RSA key :
 
 ~~~~~
-openssl genrsa -out example.key 1024
+openssl genrsa -out example.key 2048
 ~~~~~
 
 Certificate Signing Request :
