@@ -10,6 +10,7 @@ Interesting articles :
 Useful modules :
 
 - `Requests: HTTP for Humans <http://docs.python-requests.org/en/latest/>`_
+- `A curated list of awesome Python frameworks, libraries and software <https://github.com/vinta/awesome-python>`_
 
 Building Python from scratch
 ============================
