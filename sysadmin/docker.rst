@@ -31,3 +31,24 @@ Pull Ubuntu image ::
 
     docker pull ubuntu
 
+List images : ::
+
+    docker images
+
+Remove image : ::
+
+    docker rmi $IMAGE_ID
+
+Start background container : ::
+
+    CONTAINER_ID=$(docker run -d ubuntu /usr/bin/yes)
+
+Print output of the background container : ::
+
+    docker logs $CONTAINER_ID
+
+List all containers : ::
+
+    docker ps -a
+
+
