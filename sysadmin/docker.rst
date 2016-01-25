@@ -51,4 +51,7 @@ List all containers : ::
 
     docker ps -a
 
+Remove ALL containers : ::
+
+    docker ps -a | tail -n +2 | cut -f 1 -d " " | xargs docker rm
 
