@@ -46,3 +46,10 @@ Best practices
 - Follow PEP8 guidelines
 - Follow PEP 257 guidelines (Docstring Conventions)
 
+Misc
+====
+
+Get object type : ::
+
+    type(object).__name__
+
