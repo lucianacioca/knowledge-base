@@ -17,26 +17,26 @@ Building Python from scratch
 
 Install important header files : ::
 
-    apt-get install libbz2-dev zlib1g-dev libssl-dev libreadline-dev libsqlite3-dev
+    apt-get install libbz2-dev zlib1g-dev libssl-dev libreadline-dev libsqlite3-dev libncurses5-dev
 
 Download sources : ::
 
-    wget https://www.python.org/ftp/python/2.7.9/Python-2.7.9.tar.xz
+    wget https://www.python.org/ftp/python/3.5.1/Python-3.5.1.tar.xz
 
 Uncompress, build, install : ::
 
-    tar xf Python-2.7.9.tar.xz
-    cd Python-2.7.9
-    ./configure --prefix=/opt/Python-2.7.9
+    tar xf Python-3.5.1.tar.xz
+    cd Python-3.5.1
+    ./configure --prefix=$HOME/.local/Python-3.5.1
     make
     make install
 
 Create virtualenv using this new Python interpreter : ::
 
-    mkvirtualenv -p /opt/Python-2.7.9/bin/python python-2.7.9
-    workon python-2.7.9
+    mkvirtualenv -p $HOME/.local/Python-3.5.1/bin/python3 Python-3.5.1
+    workon Python-3.5.1
 
-Install useful utils : ::
+Install useful utils (broken with Python 3.5.1 !) : ::
 
     # If necessary, add --proxy=192.0.2.1:3128
     pip install readline ipython
