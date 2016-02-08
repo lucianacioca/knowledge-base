@@ -36,9 +36,12 @@ Create virtualenv using this new Python interpreter : ::
     mkvirtualenv -p $HOME/.local/Python-3.5.1/bin/python3 Python-3.5.1
     workon Python-3.5.1
 
-Install useful utils (broken with Python 3.5.1 !) : ::
+Update pip and setuptools : ::
 
-    # If necessary, add --proxy=192.0.2.1:3128
+    pip install --upgrade setuptools pip
+
+Install useful utils : ::
+
     pip install readline ipython
 
 Best practices
