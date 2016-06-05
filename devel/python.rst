@@ -42,7 +42,7 @@ Update pip and setuptools : ::
 
 Install useful utils : ::
 
-    pip install readline ipython
+    pip install readline ipython pep8 pyflakes
 
 Best practices
 ==============
