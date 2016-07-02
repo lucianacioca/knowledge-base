@@ -21,20 +21,20 @@ Install important header files : ::
 
 Download sources : ::
 
-    wget https://www.python.org/ftp/python/3.5.1/Python-3.5.1.tar.xz
+    wget https://www.python.org/ftp/python/3.5.2/Python-3.5.2.tar.xz
 
 Uncompress, build, install : ::
 
-    tar xf Python-3.5.1.tar.xz
-    cd Python-3.5.1
-    ./configure --prefix=$HOME/.local/Python-3.5.1
+    tar xf Python-3.5.2.tar.xz
+    cd Python-3.5.2
+    ./configure --prefix=$HOME/.local/Python-3.5.2
     make
     make install
 
 Create virtualenv using this new Python interpreter : ::
 
-    mkvirtualenv -p $HOME/.local/Python-3.5.1/bin/python3 Python-3.5.1
-    workon Python-3.5.1
+    mkvirtualenv -p $HOME/.local/Python-3.5.2/bin/python3 Python-3.5.2
+    workon Python-3.5.2
 
 Update pip and setuptools : ::
 
