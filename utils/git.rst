@@ -39,6 +39,10 @@ Delete stale remote-tracking branches : ::
 
     git remote prune origin
 
+List and filter files managed by git : ::
+
+    git ls-files
+
 Convert SVN repository to GIT
 =============================
 
