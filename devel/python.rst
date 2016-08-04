@@ -48,6 +48,9 @@ Best practices
 ==============
 - Follow PEP8 guidelines
 - Follow PEP 257 guidelines (Docstring Conventions)
+- For Python 2/3 compat, use :
+    - ``from __future__ import unicode_literals``
+    - ``from __future__ import print_function``
 
 Misc
 ====
@@ -55,4 +58,12 @@ Misc
 Get object type : ::
 
     type(object).__name__
+
+Python tools
+============
+
+Display tree of PIP packages :
+
+    pip install pipdeptree
+    pipdeptree
 
