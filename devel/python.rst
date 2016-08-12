@@ -42,7 +42,7 @@ Update pip and setuptools : ::
 
 Install useful utils : ::
 
-    pip install readline ipython pep8 pyflakes
+    pip install readline ipython pep8 pyflakes pip-tools pipdeptree
 
 Best practices
 ==============
@@ -62,8 +62,22 @@ Get object type : ::
 Python tools
 ============
 
-Display tree of PIP packages :
+Display tree of PIP packages : ::
 
-    pip install pipdeptree
     pipdeptree
+
+Update packages exactly as specified in a requirements file (uninstalling
+some packages if necessary) : ::
+
+    pip-sync requirements.txt
+
+Install PIP package in editable mode (example with django-compressor) : ::
+
+    git clone git@github.com:django-compressor/django-compressor.git
+    pip install -e django-compressor
+    vim django-compressor/[...]   # Time to code/debug
+
+Uninstall package in editable-mode (no specificity) : ::
+
+    pip uninstall django-compressor
 

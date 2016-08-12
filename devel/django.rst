@@ -27,3 +27,10 @@ Load fixture : ::
 
     python manage.py loaddata test.json
 
+Misc
+----
+
+Load an improved shell with all models pre-loaded : ::
+
+    python manage.py shell_plus
+
