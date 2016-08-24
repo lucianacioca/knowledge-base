@@ -43,6 +43,10 @@ List and filter files managed by git : ::
 
     git ls-files
 
+Search among managed files : ::
+
+    git grep <PATTERN>
+
 Convert SVN repository to GIT
 =============================
 

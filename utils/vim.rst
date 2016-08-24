@@ -38,31 +38,47 @@ Edit field value enclosed by double quotes : ::
 
     ci"
 
+Assign / display variable : ::
+
+    let var="varcontent"
+    echo var
+
 Plugins
 =======
 
-Useful plugins :
+Useful plugins : ::
 
-- `File explorer <https://github.com/scrooloose/nerdtree>`_
-- `Git integration <https://github.com/tpope/vim-fugitive.git>`_
+    cd ~/.vim/bundle/
+    # File explorer
+    git clone https://github.com/scrooloose/nerdtree
+    # Mini Buf Explorer
+    git clone https://github.com/fholgado/minibufexpl.vim.git
+    # Git integration
+    git clone https://github.com/tpope/vim-fugitive.git>
+    # CTRLP
+    git clone https://github.com/kien/ctrlp.vim
+    # Python Mode
+    git clone https://github.com/klen/python-mode
+
+    # Python doc
+    git clone https://github.com/fs111/pydoc.vim.git
+    # Vim config for git
+    git clone https://github.com/tpope/vim-git.git
+    # Tab for completion
+    git clone https://github.com/ervandew/supertab
+    # Comment easily
+    git clone https://github.com/scrooloose/nerdcommenter.git
+
+Other :
+
+- `YouCompleteMe - A code-completion engine for Vim <https://github.com/Valloric/YouCompleteMe>`_
+- `Gundo - Graph your Vim undo tree in style <https://github.com/sjl/gundo.vim>`_
+- `Syntastic - Syntax checking hacks for vim <https://github.com/scrooloose/syntastic>`_
 - `Pandoc syntax <https://github.com/vim-pandoc/vim-pandoc.git>`_
 - `Align data <https://github.com/vim-scripts/Align>`_
 - `XML completion <https://github.com/othree/xml.vim.git>`_
 - `Manage complex undo <https://github.com/mbbill/undotree.git>`_
-- `Python doc <https://github.com/fs111/pydoc.vim.git>`_
-- `Run syntax checks <https://github.com/klen/python-mode>`_
-- `Vim config for git <https://github.com/tpope/vim-git.git>`_
 - `ack-grep integration <https://github.com/mileszs/ack.vim>`_
-- `Tab for completion <https://github.com/ervandew/supertab>`_
-- `Comment easily <https://github.com/scrooloose/nerdcommenter.git>`_
-
-Probably useful but not personally tested :
-
-- `CTRLP - Fuzzy file, buffer, mru, tag, etc finder <https://github.com/kien/ctrlp.vim>`_
-- `YouCompleteMe - A code-completion engine for Vim <https://github.com/Valloric/YouCompleteMe>`_
-- `Gundo - Graph your Vim undo tree in style <https://github.com/sjl/gundo.vim>`_
-- `Syntastic - Syntax checking hacks for vim <https://github.com/scrooloose/syntastic>`_
-- `Python-mode - Vim python-mode. PyLint, Rope, Pydoc, breakpoints from box <https://github.com/klen/python-mode>`_
 
 Useful links for development :
 
