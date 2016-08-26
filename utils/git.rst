@@ -47,6 +47,10 @@ Search among managed files : ::
 
     git grep <PATTERN>
 
+Display commit by commit message : ::
+
+    git show :/Message
+
 Convert SVN repository to GIT
 =============================
 
