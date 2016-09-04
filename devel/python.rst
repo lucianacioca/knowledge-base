@@ -51,6 +51,7 @@ Best practices
 - For Python 2/3 compat, use :
     - ``from __future__ import unicode_literals``
     - ``from __future__ import print_function``
+- Formatting : see https://pyformat.info/
 
 Misc
 ====
