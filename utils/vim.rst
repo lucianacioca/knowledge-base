@@ -3,6 +3,20 @@
 VIM
 ===
 
+Features to masterize
+=====================
+- Tags (tagsrch.txt)
+- Syntax highlighting
+- Indent
+- Managing buffers, windows, and tabs
+- Motion
+- Mapping
+- Undo
+- Folding
+- Auto-doc
+- Auto-import
+- Completion
+
 Web ressources
 ==============
 

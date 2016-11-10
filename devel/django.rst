@@ -34,6 +34,10 @@ Load an improved shell with all models pre-loaded : ::
 
     python manage.py shell_plus
 
+Display all SQL queries : ::
+
+    python manage.py shell_plus --print-sql
+
 Install ``django-extensions``, then these commands (among others) become
 available : ::
 

@@ -82,3 +82,8 @@ Uninstall package in editable-mode (no specificity) : ::
 
     pip uninstall django-compressor
 
+List entry points : ::
+
+    pip install entry_point_inspector
+    epi group list
+
