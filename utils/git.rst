@@ -8,6 +8,10 @@ Web ressources
 - `Git Magic <http://www-cs-students.stanford.edu/~blynn/gitmagic/index.html>`_
 - `Pro Git book <http://www.git-scm.com/book>`_
 
+Documentation
+=============
+- Git revisions : `man gitrevisions`
+
 Command line operations
 =======================
 
