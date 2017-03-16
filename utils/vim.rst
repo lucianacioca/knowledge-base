@@ -57,48 +57,6 @@ Assign / display variable : ::
     let var="varcontent"
     echo var
 
-Plugins
-=======
-
-Useful plugins : ::
-
-    cd ~/.vim/bundle/
-    # File explorer
-    git clone https://github.com/scrooloose/nerdtree
-    # Mini Buf Explorer
-    git clone https://github.com/fholgado/minibufexpl.vim.git
-    # Git integration
-    git clone https://github.com/tpope/vim-fugitive.git>
-    # CTRLP
-    git clone https://github.com/kien/ctrlp.vim
-    # Python Mode
-    git clone https://github.com/klen/python-mode
-
-    # Python doc
-    git clone https://github.com/fs111/pydoc.vim.git
-    # Vim config for git
-    git clone https://github.com/tpope/vim-git.git
-    # Tab for completion
-    git clone https://github.com/ervandew/supertab
-    # Comment easily
-    git clone https://github.com/scrooloose/nerdcommenter.git
-
-Other :
-
-- `YouCompleteMe - A code-completion engine for Vim <https://github.com/Valloric/YouCompleteMe>`_
-- `Gundo - Graph your Vim undo tree in style <https://github.com/sjl/gundo.vim>`_
-- `Syntastic - Syntax checking hacks for vim <https://github.com/scrooloose/syntastic>`_
-- `Pandoc syntax <https://github.com/vim-pandoc/vim-pandoc.git>`_
-- `Align data <https://github.com/vim-scripts/Align>`_
-- `XML completion <https://github.com/othree/xml.vim.git>`_
-- `Manage complex undo <https://github.com/mbbill/undotree.git>`_
-- `ack-grep integration <https://github.com/mileszs/ack.vim>`_
-
-Useful links for development :
-
-- `Turning Vim into a modern Python IDE <http://sontek.net/blog/detail/turning-vim-into-a-modern-python-ide>`_
-- `My Development Environment For Python <http://www.jeffknupp.com/blog/2013/12/04/my-development-environment-for-python/>`_
-
 pydoc
 -----
 https://github.com/fs111/pydoc.vim/blob/master/ftplugin/python_pydoc.vim
