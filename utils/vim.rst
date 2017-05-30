@@ -57,6 +57,14 @@ Assign / display variable : ::
     let var="varcontent"
     echo var
 
+Copy to primary clipboard (X11) : ::
+
+    "*y
+
+Copy to secondary clipboard (CTRL+C) : ::
+
+    "+y
+
 pydoc
 -----
 https://github.com/fs111/pydoc.vim/blob/master/ftplugin/python_pydoc.vim
