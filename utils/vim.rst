@@ -85,6 +85,14 @@ View the documentation for the WORD under the cursor : ::
 
     <Leader>pW
 
+Swap the current character (the character under the cursor) with the next : ::
+
+    xp
+
+Swap the current character (the character under the cursor) with the previous : ::
+
+    xP
+
 Plugin development
 ==================
 
