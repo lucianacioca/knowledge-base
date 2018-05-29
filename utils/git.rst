@@ -55,6 +55,10 @@ Display commit by commit message : ::
 
     git show :/Message
 
+Add prefix to commit messages using sed : ::
+
+    git filter-branch --msg-filter "sed 's/^/PREFIX /'" HEAD ^f78f088^
+
 Convert SVN repository to GIT
 =============================
 
